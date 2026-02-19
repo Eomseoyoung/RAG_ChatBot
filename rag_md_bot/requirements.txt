@@ -1,0 +1,6 @@
+sentence-transformers==2.7.0
+numpy
+tqdm
+python-dotenv==1.0.1
+chromadb
+ollama
