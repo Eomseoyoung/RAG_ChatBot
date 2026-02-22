@@ -2,6 +2,7 @@
 
 마크다운 문서를 기반으로 질문에 답변하는 로컬 RAG 챗봇입니다.
 임베딩은 `BAAI/bge-m3`, 벡터 DB는 `Chroma`, LLM은 `Ollama`를 사용합니다.
+싱글턴으로 구성
 
 ---
 
@@ -93,3 +94,4 @@ OLLAMA_MODEL=llama3.2:3b
 ```bash
 ollama pull llama3.2:3b
 ```
+
